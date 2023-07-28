@@ -1,4 +1,3 @@
-# Теперь выполним код, чтобы проверить его работу на созданных файлах.
 import pandas as pd
 import glob
 import os
@@ -63,7 +62,3 @@ def main():
         log_and_highlight_changes(changes, data_to_log, log_filename)
 
 main()
-
-import os
-print(os.getcwd())  # Покажет текущую директорию
-print(os.listdir())  # Покажет все файлы в текущей директории
